@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <email-autocomplete v-model="email" class-name="email-input" placeholder="输入邮箱"></email-autocomplete>
         <div style="margin-top: 150px;">你输入的邮箱为：{{ email }}</div>
     </div>
@@ -21,6 +21,10 @@
 </script>
 
 <style>
+    .container {
+        padding: 10px;
+    }
+
     .email-input {
         font-size: 14px;
         width: 200px;

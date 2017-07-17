@@ -1,18 +1,11 @@
 # vue-email-autocomplete
 
-> A Vue.js project
+> 基于 Vue.js 的邮箱地址补全插件
 
-## Build Setup
+## Demo
 
-``` bash
-# install dependencies
-npm install
+[查看Demo](https://mengchen129.github.io/vue-email-autocomplete/index.html)
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 说明
 
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- 基于 HTML5 datalist 实现的下拉列表
